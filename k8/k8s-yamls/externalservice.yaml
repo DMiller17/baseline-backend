@@ -10,4 +10,4 @@ spec:
     protocol: TCP
   selector:
     app: demo-ui
-  type: LoadBalancer
+  type: NodePort

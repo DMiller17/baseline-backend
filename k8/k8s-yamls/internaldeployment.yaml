@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/<project-id>/internal:v1.0.0
+        image: gcr.io/dtc-attendee-110/internal:v1.0.1
         ports:
         - containerPort: 8080
             

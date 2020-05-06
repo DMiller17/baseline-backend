@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: gcr.io/<project-id>/external:v1.0.0
+        image: gcr.io/dtc-attendee-110/external:v1.0.0
         ports:
         - containerPort: 80
             

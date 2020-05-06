@@ -10,7 +10,7 @@ spec:
         backend:
           serviceName: demo-ui-service
           servicePort: 80
-      - path: /json
+      - path: /json/*
         backend:
           serviceName: demo-service
-          servicePort: 8080
+          servicePort: 80
